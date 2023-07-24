@@ -1,0 +1,20 @@
+.btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(166, 93, 235);
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+}
