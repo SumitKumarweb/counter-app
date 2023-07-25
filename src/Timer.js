@@ -11,8 +11,8 @@ function Timer() {
   };
 
   return (
-    <div>
-      <input value={regex} onChange={handleChange} />
+    <div className="box">
+      <input value={regex} onChange={handleChange} placeholder="Enter your number" />
       <Button value={regex} />
     </div>
   );
