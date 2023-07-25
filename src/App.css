@@ -1,4 +1,10 @@
-.btn{
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn {
+    margin: 10px;
     padding: 10px 25px;
     border: none;
     border-radius: 10px;
@@ -7,14 +13,25 @@
     font-size: 1.3rem;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(166, 93, 235);
 }
 
-input{
+input {
+    margin: 10px;
     outline: none;
     border: none;
     border-bottom: 2px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px 10px;
+}
+
+.box {
+    height: 100vh;
+    width: 100vw;
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
